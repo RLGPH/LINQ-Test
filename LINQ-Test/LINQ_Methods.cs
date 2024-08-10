@@ -26,9 +26,5 @@ namespace LINQ_Test
         { 
             return Numbers.Where(num => num % 2 != 0).ToArray();
         }
-        public void NewUser(User user) 
-        {
-
-        }
     }
 }
